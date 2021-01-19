@@ -25,5 +25,5 @@ export MAVEN_OPTS="-Dlicense.path=${HOME}/secrets/license \
 
 # Maven command
 sh -c "mvn -s /maven-settings.xml \
-           -f /github/workspace/talendGit/poms/pom.xml \
+           -f /home/runner/work/talendGit/talendGit/poms/pom.xml \
            -Pcloud-publisher clean deploy $*"
