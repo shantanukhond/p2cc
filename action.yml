@@ -32,7 +32,7 @@ inputs:
     description: 'Updateflow option (default to true)'
     required: false
     default: 'true'
-  cloud_publisher_environment: 
+  cloud_publisher_environment:
     description: 'Talend Cloud environment'
     required: false
     default: '<default>'
